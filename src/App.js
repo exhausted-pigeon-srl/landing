@@ -8,12 +8,13 @@ function App() {
         <p>
           <img src="./xp_webTransp.png" className="banner" alt="logo" />
         </p>
+    <br />
         <div className="box">
           <div className="box-body">
  <p>Exhausted Pigeon provides smart contract engineering and solutions for every part of your web3 stack.
               <br />
-              Our main focus are EVM-compatible chains - we use Solidity, Vyper, Yul(p),
-              Huff, or even raw bytecode - and Starknet.
+              Our main focus are EVM-compatible chains and Starknet - we use Solidity, Cairo, Vyper, Yul(p),
+              Huff, or even raw bytecode.
               <br /><a href="mailto: info@exhausted-pigeon.xyz">Contact</a></p>
           </div>
         </div>
