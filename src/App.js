@@ -11,11 +11,19 @@ function App() {
     <br />
         <div className="box">
           <div className="box-body">
- <p>Exhausted Pigeon provides smart contract engineering and solutions for every part of your web3 stack.
-              <br />
+            <p>
+              Exhausted Pigeon provides smart contract engineering and solutions for every part of your web3 stack.
+            </p>
+     
+            <p>
               Our main focus are EVM-compatible chains and Starknet - we use Solidity, Cairo, Vyper, Yul(p),
               Huff, or even raw bytecode.
-              <br /><a href="mailto: info@exhausted-pigeon.xyz">Contact</a></p>
+            </p>
+  
+            <p>
+              <a href="mailto: info@exhausted-pigeon.xyz">Contact</a>
+            </p>
+  
           </div>
         </div>
       </div>
