@@ -1,6 +1,4 @@
 import React from "react";
-import Price from "./Price.js";
-import Accordion from "react-bootstrap/Accordion";
 import "./App.css";
 
 function App() {
