@@ -17,7 +17,7 @@ function App() {
      
             <p>
               Our main focus are EVM-compatible chains and Starknet - we use Solidity, Cairo, Vyper, Yul(p),
-              Huff, or even raw bytecode.
+              Huff, or even raw bytecode. This site is ugly because we're too busy deploying things.
             </p>
   
             <p>
