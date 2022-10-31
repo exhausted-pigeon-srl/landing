@@ -11,24 +11,20 @@ function App() {
           <img src="./xp_webTransp.png" className="banner" alt="logo" />
         </p>
         <div className="box">
-          <div className="box-header">We provide blockchain solutions</div>
+          <!-- <div className="box-header">We provide blockchain solutions</div> -->
 
           <div className="box-body">
-            <p>
-              We are a company specializing in blockchain developement. We
-              provide solutions for every part of your web3 stack.
+ <p>Exhausted Pigeon provides smart contract engineering and solutions for every part of your web3 stack.
               <br />
-              Our main focus are EVM-compatible chains and Starknet but we are
-              obviously always open to challenges in new vm.
-              <br />
-              <br />
-              <a href="mailto: info@exhausted-pigeon.xyz">Contact</a>
-            </p>
-            <br /> Mint our business card (free NFT of a fully onchain svg, in
-            Yul): Soon
+              Our main focus are EVM-compatible chains - we use Solidity, Vyper, Yul(p),
+              Huff, or even raw bytecode - and Starknet.
+              <br /><a href="mailto: info@exhausted-pigeon.xyz">Contact</a></p>
+            <!--<br /> Mint our business card (free NFT of a fully onchain svg, in
+            Yul): Soon -->
           </div>
         </div>
       </div>
+  <!--
       <div className="textarea">
         <div className="box">
           <div className="box-body">
@@ -61,6 +57,7 @@ function App() {
           </div>
         </div>
       </div>
+                  -->
     </>
   );
 }
