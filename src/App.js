@@ -36,21 +36,37 @@ function App() {
 
           <p>
             Check out our{" "}
-            <a href="https://github.com/exhausted-pigeon-srl" target="_blank">
+            <a
+              href="https://github.com/exhausted-pigeon-srl"
+              target="_blank"
+              rel="noreferrer"
+            >
               GitHub organisation
             </a>{" "}
             and{" "}
-            <a href="https://github.com/drgorillamd" target="_blank">
+            <a
+              href="https://github.com/drgorillamd"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               DrGorilla.eth repo.
             </a>
             <br />
             We currently contribute to:{" "}
-            <a href="https://github.com/jbx-protocol" target="_blank">
+            <a
+              href="https://github.com/jbx-protocol"
+              target="_blank"
+              rel="noreferrer"
+            >
               Juicebox protocol
             </a>
             ,{" "}
-            <a href="https://github.com/defi-wonderland" target="_blank">
+            <a
+              href="https://github.com/defi-wonderland"
+              target="_blank"
+              rel="noreferrer"
+            >
               Defi Wonderland
             </a>
           </p>
