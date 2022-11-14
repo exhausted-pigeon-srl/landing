@@ -36,22 +36,14 @@ function App() {
           <p>Got code?</p>
 
           <p>
-            Check out our{" "}
-            <a
-              href="https://github.com/exhausted-pigeon-srl"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub organisation
-            </a>{" "}
-            and{" "}
+            Check out our main GitHub account{" "}
             <a
               href="https://github.com/drgorillamd"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
-              DrGorilla.eth repo.
+              DrGorilla.eth.
             </a>
             <br />
             We currently contribute to:{" "}
