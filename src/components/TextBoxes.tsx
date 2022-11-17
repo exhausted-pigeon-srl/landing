@@ -1,13 +1,8 @@
-import React from "react";
-import "./App.css";
-
-function App() {
+export function TextBoxes() {
   return (
     <>
       <div className="textarea">
-        <p>
-          <img src="./xp_webTransp.png" className="banner" alt="logo" />
-        </p>
+        <img src="./xp_webTransp.png" className="banner" alt="logo" />
         <br />
         <div className="box">
           <div className="box-body">
@@ -68,5 +63,3 @@ function App() {
     </>
   );
 }
-
-export default App;

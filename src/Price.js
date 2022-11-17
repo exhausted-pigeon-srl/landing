@@ -2,8 +2,7 @@ import { ethers } from "ethers";
 import React, { useState } from "react";
 
 const POOL_ADDRESS = "0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8"; //USDC-ETH 0.3% Mainnet
-const PROVIDER_URL =
-  "wss://mainnet.infura.io/ws/v3/da0ab80c5c02483da3e5014cb1dadc03";
+const PROVIDER_URL = "https://rpc.ankr.com/eth";
 
 const provider = new ethers.providers.WebSocketProvider(PROVIDER_URL);
 const abi = [
