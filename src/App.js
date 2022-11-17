@@ -1,6 +1,4 @@
 import React from "react";
-import Profile from "./Profile.js";
-import Accordion from "react-bootstrap/Accordion";
 import "./App.css";
 import { WagmiConfig, createClient } from "wagmi";
 import { getDefaultProvider } from "ethers";
@@ -17,70 +15,61 @@ function App() {
         <p>
           <img src="./xp_webTransp.png" className="banner" alt="logo" />
         </p>
+        <br />
         <div className="box">
-          <div className="box-header">FAQ</div>
-
           <div className="box-body">
             <p>
-              We are a company specializing in blockchain developement. While
-              our expertise is centered on onchain solutions, we provide
-              solutions for every part of your web3 stack.
+              Exhausted Pigeon provides smart contract engineering and solutions
+              for every part of your web3 stack.
+            </p>
+
+            <p>
+              Our main focus are EVM-compatible chains and Starknet - we use
+              Solidity, Cairo, Vyper, Yul(p), Huff, or even raw bytecode.
               <br />
-              Our main focus are EVM-compatible chains (Solidity, Vyper, Yul(p),
-              Huff, even raw bytecode) and Starknet - we are obviously always
-              open to challenges in new vm.
-              <br />
-              Feel free to mint our fully onchain adaptive svg NFT Business card
-              here, available on Arbitrum, Polygon and mainnet:
-              <br />
-              <WagmiConfig client={client}>
-                <Profile />
-              </WagmiConfig>
+              This site is ugly because we're too busy deploying things.
+            </p>
+
+            <p>
+              <a href="mailto: info@exhausted-pigeon.xyz">Contact</a>
             </p>
           </div>
         </div>
       </div>
 
-      <div className="textarea">
-        <div className="box">
-          <div className="box-body">
-            <Accordion flush>
-              <Accordion.Item eventKey="0">
-                <Accordion.Header>?</Accordion.Header>
-                <Accordion.Body></Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="1">
-                <Accordion.Header></Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="2">
-                <Accordion.Header> ?</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="3">
-                <Accordion.Header>foo</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="4">
-                <Accordion.Header>foo</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-              <Accordion.Item eventKey="5">
-                <Accordion.Header>foo</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
+      <br />
+      <div className="box">
+        <div className="box-body">
+          <p>Got code?</p>
 
-              <Accordion.Item eventKey="6">
-                <Accordion.Header>foo</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-
-              <Accordion.Item eventKey="7">
-                <Accordion.Header>foo</Accordion.Header>
-                <Accordion.Body>foo</Accordion.Body>
-              </Accordion.Item>
-            </Accordion>
-          </div>
+          <p>
+            Check out our main GitHub account{" "}
+            <a
+              href="https://github.com/drgorillamd"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              DrGorilla.eth.
+            </a>
+            <br />
+            We currently contribute to:{" "}
+            <a
+              href="https://github.com/jbx-protocol"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Juicebox protocol
+            </a>
+            ,{" "}
+            <a
+              href="https://github.com/defi-wonderland"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Defi Wonderland
+            </a>
+          </p>
         </div>
       </div>
     </>
