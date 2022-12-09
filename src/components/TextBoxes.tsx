@@ -59,6 +59,11 @@ export function TextBoxes() {
             </a>
           </p>
         </div>
+        <div className="box-body">
+          <p>Got NFT?</p>
+
+          <p>Soon</p>
+        </div>
       </div>
     </>
   );
