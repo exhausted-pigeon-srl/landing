@@ -38,7 +38,15 @@ export function TextBoxes() {
               rel="noreferrer"
             >
               {" "}
-              DrGorilla.eth.
+              DrGorilla.eth
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://github.com/exhausted-pigeon-srl"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Exhausted Pigeon organisation.
             </a>
             <br />
             We currently contribute to:{" "}
