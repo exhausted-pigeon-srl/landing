@@ -12,14 +12,9 @@ body {
 }
 
 img {
-    max-width: 50%;
+    max-width: 640px;
     margin: auto;
     display: block;
-}
-
-.banner {
-    position: relative;
-    right: 5px;
 }
 
 @media all and (max-width: 960px) {
