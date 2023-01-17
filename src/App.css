@@ -1,9 +1,13 @@
-* { font-family: 'Roboto', sans-serif; }
+* { 
+    font-family: 'Work-Sans', Medium;
+    font-size: 18px;
+    color: #374151;
+}
 
 body {
     margin: 5px;
     padding: 5px;
-    background-color: #cacaca;
+    background-color: #DEDEDE;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -31,7 +35,7 @@ img {
 input, button, textarea {
     border: 2px solid rgba(0, 0, 0, 0.6);
     background-image:none;
-    background-color: #dadad3;
+    background-color: #FFFFFF;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -64,6 +68,8 @@ button {
 }
 
 .box-header {
+    font: Rosario, Medium !important;
+    font-size: 20px !important;
     text-align: center;
     padding: 8px;
     font-size: 14px;

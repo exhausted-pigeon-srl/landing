@@ -1,6 +1,11 @@
 export function TextBoxes() {
   return (
     <>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Rosario:wght@500&family=Work+Sans&display=swap"
+        rel="stylesheet"
+      />
+
       <div className="textarea">
         <img src="./xp_webTransp.png" className="banner" alt="logo" />
         <br />
@@ -27,9 +32,8 @@ export function TextBoxes() {
 
       <br />
       <div className="box">
+        <div className="box-header">Got code?</div>
         <div className="box-body">
-          <p>Got code?</p>
-
           <p>
             Check out our main GitHub account{" "}
             <a
@@ -67,9 +71,10 @@ export function TextBoxes() {
             </a>
           </p>
         </div>
+      </div>
+      <div className="box">
+        <div className="box-header">Got NFT?</div>
         <div className="box-body">
-          <p>Got NFT?</p>
-
           <p>Soon</p>
         </div>
       </div>
