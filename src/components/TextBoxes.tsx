@@ -12,13 +12,13 @@ export function TextBoxes() {
         <div className="box">
           <div className="box-body">
             <p>
-              Exhausted Pigeon provides smart contract engineering and solutions
-              for every part of your web3 stack.
+              Exhausted Pigeon provides software engineering and solutions for
+              every part of your web3 stack.
             </p>
 
             <p>
-              Our main focus are EVM-compatible chains and Starknet - we use
-              Solidity, Cairo, Vyper, Yul(p), Huff, or even raw bytecode.
+              Our main focus are EVM-compatible environnement and Starknet - we
+              use Solidity, Cairo, Vyper, Yul(p), Huff, or even raw bytecode.
               <br />
               This site is ugly because we're too busy deploying things.
             </p>
@@ -35,7 +35,7 @@ export function TextBoxes() {
         <div className="box-header">Got code?</div>
         <div className="box-body">
           <p>
-            Check out our main GitHub account{" "}
+            Check out our main GitHub accounts{" "}
             <a
               href="https://github.com/drgorillamd"
               target="_blank"
