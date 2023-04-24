@@ -7,7 +7,7 @@ export function TextBoxes() {
       />
 
       <div className="textarea">
-        <img src="./xp_webTransp.png" className="banner" alt="logo" />
+        <img src="./xp_webTransp.svg" className="banner" alt="logo" />
         <br />
         <div className="box">
           <div className="box-body">
