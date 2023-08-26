@@ -17,8 +17,9 @@ export function TextBoxes() {
             </p>
 
             <p>
-              Our main focus are EVM-compatible environnement and Starknet - we
-              use Solidity, Cairo, Vyper, Yul(p), Huff, or even raw bytecode.
+              Our main focus are the EVM and provable systems/(ZK)SNARKS - we
+              use Solidity, Circom, Noir, Vyper, Yul(p), Huff, or even raw
+              bytecode.
               <br />
               This site is ugly because we're too busy deploying things.
             </p>
