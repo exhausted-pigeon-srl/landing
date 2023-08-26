@@ -83,3 +83,11 @@ button {
     display: flex;
     flex-direction: column;
 }
+
+.footer {
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 9px;
+  }

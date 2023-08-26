@@ -2,7 +2,7 @@ import "./App.css";
 
 import { useAccount } from "wagmi";
 import { ConnectKitProvider, ConnectKitButton } from "connectkit";
-import { TextBoxes } from "./components";
+import { TextBoxes, Footer } from "./components";
 
 export function App() {
   const { isConnected } = useAccount();
@@ -12,6 +12,8 @@ export function App() {
       <ConnectKitProvider>
         <ConnectKitButton />
         <TextBoxes />
+        <br></br>
+        <Footer />
       </ConnectKitProvider>
     </>
   );
