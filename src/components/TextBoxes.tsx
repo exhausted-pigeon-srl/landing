@@ -17,8 +17,9 @@ export function TextBoxes() {
             </p>
 
             <p>
-              Our main focus are the EVM and provable systems/(ZK)SNARKS - we
-              use Solidity, Circom, Noir, Vyper, Yul(p), Huff, or even raw
+              Our main focus are the EVM and provable systems/(ZK)SNARKS.
+              <br />
+              We use Solidity, Circom, Noir, Vyper, Yul(p), Huff, or even raw
               bytecode.
               <br />
               This site is ugly because we're too busy deploying things.
@@ -74,9 +75,13 @@ export function TextBoxes() {
         </div>
       </div>
       <div className="box">
-        <div className="box-header">Got NFT?</div>
+        <div className="box-header">Wanna buy us a coffee?</div>
         <div className="box-body">
-          <p>Soon</p>
+          <p>
+            <a href="https://juicebox.money/@exhausted-pigeon" target="_blank">
+              ☕️☕️☕️
+            </a>
+          </p>
         </div>
       </div>
     </>
